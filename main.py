@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySample
+from diaries.HaruDiary import HaruDiary
 from diaries.TakumiDiary import TakumiDiary
 from diaries.KubotaDiary import KubotaDiary
 
