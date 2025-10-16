@@ -7,12 +7,11 @@ from diaries.UedaDiary import UedaDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(), 
-    HaruDiary(),
     KubotaDiary(), 
-    TakumiDiary(),  
-    UedaDiary(),
-]
-
+    HaruDiary(),
+    TakumiDiary(), 
+    UedaDiary(), 
+    ]
 
 for d in diaries:
     print("--------------------------------------")
