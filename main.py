@@ -10,6 +10,7 @@ diaries = [
     KubotaDiary(),
     ]
 
+for d in diaries:
     print("--------------------------------------")
     print(d.get_date())
     print(d.get_summary())
